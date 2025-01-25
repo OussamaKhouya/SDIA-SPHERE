@@ -16,6 +16,11 @@ import {
   type Site
 } from './types'
 
+export const showPageAside: boolean = getSiteConfig(
+  'showPageAside',
+  false
+)
+
 export const rootNotionPageId: string = parsePageId(
   getSiteConfig('rootNotionPageId'),
   { uuid: false }

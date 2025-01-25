@@ -26,6 +26,7 @@ export interface SiteConfig {
   isTweetEmbedSupportEnabled?: boolean
   isRedisEnabled?: boolean
   isSearchEnabled?: boolean
+  showPageAside?: boolean
 
   includeNotionIdInUrls?: boolean
   pageUrlOverrides?: types.PageUrlOverridesMap
